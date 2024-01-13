@@ -1,0 +1,39 @@
+@charset "UTF-8"; /*Defino o UTF-8 como padrão*/
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;1,300&display=swap");
+
+body {
+  background-color: rgba(255, 85, 0, 0.8);
+}
+header {
+  background-color: rgba(230, 97, 97, 1);
+  text-align: center;
+  height: 170px;
+}
+header img#logotipopastelaria {
+  position: absolute;
+
+  height: 130px; /*altura*/
+}
+
+nav#menunav {
+}
+nav li.menu {
+  display: inline-block; /*faz com que um bloco seja exibido na mesma linha*/
+  background: none;
+  margin-top: 80px;
+}
+nav#menunav ul li.menu a {
+  position: relative;
+  background: none; /*tira o background*/
+  font-size: 13pt;
+  font-family: "Fira Sans", sans-serif;
+  color: rgb(214, 214, 214);
+  transition: color 0.6s; /*delimita tempo para o efeito hover*/
+  /*cima, direita, baixo, esquerda*/
+  margin: auto 40px 4px 40px; /*margens da div#interface*/
+  text-decoration: none;
+}
+nav#menunav ul li.menu a:hover {
+  text-decoration: underline;
+  color: rgb(193, 19, 19);
+}
